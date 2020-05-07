@@ -1,0 +1,26 @@
+{
+  "name": "project-socketio",
+  "version": "0.0.1",
+  "description": "Arduino UNO with ESP8266 via Firmata",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "Arduino",
+    "IoT",
+    "ESP8266",
+    "Firmata"
+  ],
+  "author": "withered-flowers",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.0",
+    "firmata": "^0.5.4",
+    "serialport": "^1.7.4",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5"
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket IO</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <!--  <link rel="stylesheet" href="style.css"></link> -->
+  </head>
+  <body>
+    <ul id="messages"></ul>
+  	<button id="btnBlink">Blink the Led !</button>
+
+    <script>
+	  document.getElementById('btnBlink').onclick = function() {
+      	var socket = io('localhost:3000/arduino1');
+      	console.log(socket);
+      }
+    </script>
+
+  </body>
+</html>
